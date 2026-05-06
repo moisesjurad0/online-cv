@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Moisés Jurado
-  tagline: Backend Developer | Python | DevOps | CI/CD | RPA | PSD I
+  tagline: Python Engineer | Backend Developer | DevOps
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -58,25 +58,16 @@ career-profile:
   title: Career Profile
   summary: |
     ++ Hi 👋
-    I'm Moisés, I'm a sr developer and devOps engineer
+    I'm Moisés, a Python Engineer with a strong background in Backend Development and DevOps.
     thanks for visiting my profile 🙇‍♂️
 
-    ++ My set of skills:
-    - Python (Requests, Selenium + ChromeDriver, Beautiful Soup, Playwright, pysftp, SQLAlchemy, Pandas, Matplotlib, Django, Flask, Pytest, Flake8, Mypy ,Coverage.py, tox, Boto3, Robot Framework, Robocorp RPA Framework, Scrapy)
-    - Java (Spring, Maven, JMS, MDB)
-    - C#, .NET, ASP.NET (MVC & Web API), Razor Pages, WCF, EF Core, LINQ
-    - Linux scripting, AWK
-    - Blue Prism
-    - Oracle Database (PL/SQL), Microsoft SQL Server (T-SQL), MySQL, SQLite, PostgreSQL, DynamoDB
-    - CI/CD (GitHub Actions, BitBucket Pipelines)
-    - Git (GitHub, GitLab, BitBucket)
-    - SonarCloud
-    - Docker, Docker Compose, Docker Hub, GitHub Packages
-    - Kubernetes, Kubectl, Helm, Operators, ArgoCD, Prometheus, Prometheus Exporters, Grafana, Nginx Ingress Controller
-    - AWS, Azure, Terraform
-    - SOAP, REST, Swagger, JavaScript, JQuery, TypeScript
-    - Charging Systems
-    - Applications Servers and Network Servers
+    ++ Core skills:
+    - Python (FastAPI, SQLModel, SQLAlchemy, Requests, Selenium + ChromeDriver, Beautiful Soup, Playwright, Pandas, Pytest)
+    - Databases (Azure SQL, Microsoft SQL Server, Oracle PL/SQL, SQLite)
+    - DevOps & CI/CD (Docker, Kubernetes, GitHub Actions, BitBucket Pipelines)
+    - Cloud (Microsoft Azure, AWS, Terraform)
+    - Version Control (Git, GitHub, GitLab, BitBucket)
+    - API Design (REST, Swagger)
 
     ++ Checkout my GitHub: 
     github.com/moisesjurad0
@@ -134,6 +125,44 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Python Developer
+      time: Jan 2024 - Present
+      company: Grupo UNACEM
+      details: |
+        ++ Client: UNACEM Global Business Services
+        
+        ++ About:
+        - I started working for Digicem, which was later absorbed by Grupo UNACEM. I developed robust and scalable REST APIs using Python and FastAPI, and designed database schemas with SQLAlchemy and SQLModel.
+        - Currently working as a Python Developer and DevOps Engineer, optimizing backend processes and cloud infrastructure.
+        - Implemented data extraction and web scraping tools using Requests and Beautiful Soup.
+        - Developing and maintaining automation scripts, CI/CD pipelines, and cloud resources on Microsoft Azure.
+        
+        ++ Technologies:
+        - Python (FastAPI, SQLAlchemy, SQLModel, Requests, Beautiful Soup)
+        - Microsoft Azure, Azure SQL
+        - Docker, Kubernetes
+        - CI/CD, DevOps, Terraform
+        - SQL, T-SQL
+        - Agile, Scrum
+
+    - role: Python Developer
+      time: Dec 2022 - Dec 2023
+      company: Self-employed
+      details: |
+        ++ About:
+        - Dedicated time to upskill and develop personal projects focused on modern Python backend engineering and cloud deployments.
+        - Built a comprehensive RESTful API using FastAPI, SQLAlchemy, and PostgreSQL, containerized with Docker, and deployed on Azure.
+        - Automated testing and CI/CD pipelines using GitHub Actions to ensure code quality and seamless deployments.
+        
+        ++ Technologies:
+        - Python
+        - FastAPI
+        - SQLAlchemy
+        - PostgreSQL
+        - Docker
+        - GitHub Actions
+        - Azure
+
     - role: Lean RPA Analyst
       time: Nov 2020 - Aug 2022
       company: Indra
