@@ -193,7 +193,7 @@ experiences:
         ++ About:
         - Promoted to Technical Leader to guide the team in delivering critical notification features for prepaid clients (e.g., Navigation Attempts, Degradation of LTE).
         - Managed E2E notification processes, production deployments, and risk management initiatives.
-        - Led the migration of Linux scripts from Optiva IN to Ericsson CBIO.
+        - Implemented real-time notification logic for prepaid recharges, driving high-impact promotional campaigns like "Triple your balance".
         - Programmed EAI integrations to optimize transaction loads using Huawei PCRF, and troubleshooted high-priority issues for the Prepaid Platform.
 
         ++ Technologies:
