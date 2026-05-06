@@ -132,10 +132,9 @@ experiences:
         ++ Client: UNACEM Global Business Services
         
         ++ About:
-        - I started working for Digicem, which was later absorbed by Grupo UNACEM. I developed robust and scalable REST APIs using Python and FastAPI, and designed database schemas with SQLAlchemy and SQLModel.
-        - Currently working as a Python Developer and DevOps Engineer, optimizing backend processes and cloud infrastructure.
-        - Implemented data extraction and web scraping tools using Requests and Beautiful Soup.
-        - Developing and maintaining automation scripts, CI/CD pipelines, and cloud resources on Microsoft Azure.
+        - Started at Digicem (later absorbed by Grupo UNACEM) developing robust, scalable REST APIs using FastAPI and designing schemas with SQLAlchemy and SQLModel.
+        - Currently optimizing backend processes, maintaining cloud infrastructure, and building data extraction and web scraping tools using Requests and Beautiful Soup.
+        - Developing automation scripts and managing CI/CD pipelines and resources on Microsoft Azure.
         
         ++ Technologies:
         - Python (FastAPI, SQLAlchemy, SQLModel, Requests, Beautiful Soup)
@@ -143,6 +142,8 @@ experiences:
         - Docker, Kubernetes
         - CI/CD, DevOps, Terraform
         - SQL, T-SQL
+        
+        ++ Tools & Process:
         - Agile, Scrum
 
     - role: Python Developer
@@ -155,316 +156,188 @@ experiences:
         - Automated testing and CI/CD pipelines using GitHub Actions to ensure code quality and seamless deployments.
         
         ++ Technologies:
-        - Python
-        - FastAPI
-        - SQLAlchemy
+        - Python (FastAPI, SQLAlchemy)
         - PostgreSQL
         - Docker
         - GitHub Actions
-        - Azure
+        - Microsoft Azure
 
     - role: Lean RPA Analyst
       time: Nov 2020 - Aug 2022
       company: Indra
       details: |
-        ++ Client: Telefónica del Perú // Sector: Telco
+        ++ Client: Telefónica del Perú | Sector: Telco
 
         ++ About:
-        - I worked for the "Claims Team" where I designed and developed robots and automations for various claim processes, including "claim registration", "previous consultation", and "claim resolution". These processes covered claims/complaints originating from Osiptel (landline and mobile, 1st and 2nd instance) as well as the "Book of Claims" from Indecopi.
-        - In my role, I led the technical aspects of the team, overseeing passes to production, monitoring, and troubleshooting issues. I also managed repositories, mentored the team, conducted devOps training, handled stakeholder management, and made improvement proposals.
+        - Designed and developed RPA bots and automations for complex telecom claim processes (Osiptel, Indecopi) within the Claims Team.
+        - Acted as the technical lead, overseeing production deployments, monitoring, and troubleshooting.
+        - Mentored team members, conducted DevOps training, managed code repositories, and actively proposed process improvements to stakeholders.
 
         ++ Technologies:
-        - Python
-        - Python - Requests
-        - Python - Selenium + Chrome Driver
-        - Python - Pandas
-        - Python - Beautiful Soup
-        - Python - pysftp
-        - Python - SQLAlchemy
+        - Python (Requests, Selenium, Pandas, BeautifulSoup, SQLAlchemy)
         - Microsoft SQL Server
-        - SQL, T-SQL
-        - CI/CD, DevOps
         - Docker, Kubernetes
-        - Blue Prism + .NET modules (C# & Visual Basic)
-        - AWK (Linux)
-
-        ++ Process: Scrum, RPA
-
-        ++ Tools:
-        - Git / BitBucket / BitBucket Pipelines
+        - Blue Prism (.NET)
+        - Linux (AWK)
+        
+        ++ Tools & Process:
+        - Git, BitBucket Pipelines
         - SonarCloud
-        - Postman
-        - Jira / Trello
         - Splunk
-    - role: Technical leader
+        - Jira
+        - Scrum, RPA
+
+    - role: Technical Leader
       time: Oct 2019 - Nov 2020
       company: Global HITSS
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil) | Sector: Telco
 
         ++ About:
-        After my previous experience working for the same client I became technical leader and successfully guided the same team in achieving additional goals, e.g.
-        - "Navigation Attempt for Prepaid Clients - Notification" feature.
-        - "Turning Phone On for Prepaid Clients - Notification" feature.
-        - "Degradation of Wireless Internet IFI and LTE - Notification" feature.
-        - Notificactions Proceses E2E - Maintenance and documentation aligned to Claro Development Standards.
-        - Management and monitoring of Production Passes.
-        - Risk Management of initiatives.
-        - Issues troubleshooting for Prepaid Platform & Apps.
-        - Participation in the committees of production passes. Transfer to support and monitoring teams.
-        - Linux Scripts migration from using IN (Optiva) to use CBIO (Ericson).
-        - Programming of the EAI integration to reduce the load of transactions reaching the IN, using Huawei PCRF as an intermediary.
+        - Promoted to Technical Leader to guide the team in delivering critical notification features for prepaid clients (e.g., Navigation Attempts, Degradation of LTE).
+        - Managed E2E notification processes, production deployments, and risk management initiatives.
+        - Led the migration of Linux scripts from Optiva IN to Ericsson CBIO.
+        - Programmed EAI integrations to optimize transaction loads using Huawei PCRF, and troubleshooted high-priority issues for the Prepaid Platform.
 
         ++ Technologies:
-        - Java
-        - Spring
-        - Maven
-        - SOAP
-        - REST
-        - Java Message Service (JMS)
-        - Message-Driven Bean (MDB)
-        - Event-Driven Architecture (EDA)
-        - Oracle WebLogic Server SOA
-        - Oracle WebLogic Server Middleware
-        - Oracle WebLogic EAI
-        - Oracle Service Bus (OSB)
-        - Oracle Database
-        - SQL, PL/SQL
-        - Linux scripting
-        - Apache James Server
-        - Huawei - USSD Push Gateway (Unstructured Supplementary Service Data)
-        - Huawei - IPCC IVR (Internet Protocol Contact Center, Interactive Voice Response)
-        - Mobiera - SAT Push Gateway (Service Access Terminal)
-        - Mahindra - NGAGE Notifications Manager
-        - Nokia - IN Unified OCS (Intelligent Network, Online Charging System)
-        - Optiva - IN (Intelligent Network)
-        - Huawei -  PCRF (Policy and Charging Rules Function)
-        - AWK
-
-        ++ Process: Scrum & Waterfall
-
-        ++ Tools:
-        - IBM Rational Team Concert
-        - ELK - Elasticsearch, Logstash, Kibana
-        - Git, BitBucket
-        - Apache Subversion (SVN)
+        - Java (Spring, Maven, JMS, MDB)
+        - Oracle WebLogic (SOA, OSB, EAI)
+        - Oracle DB
+        - Linux Scripting
+        - Huawei Push Gateway
+        - Nokia IN Unified OCS
+        
+        ++ Tools & Process:
+        - Git, SVN
         - SonarQube
-        - Trello
+        - ELK Stack
         - SoapUI
-        - Postman
-        - Spring Tool Suite
-        - Putty, Kitty
-        - KornShell
-        - Vim
-        - WinSCP
+        - IBM Rational Team Concert
+        - Scrum & Waterfall
+
     - role: Software Developer
       time: Oct 2018 - Oct 2019
       company: MDP Consulting
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil) | Sector: Telco
 
         ++ About:
-        I developed, tested, and delivered documented features and fixes for "Automatic Mobile Notifications". These notifications are aimed at promoting the sale of mobile data packages triggered by mobile events through interactive notifications on mobile phones, resulting in a monthly revenue of approx. $15 million, e.g.
-        - "Recharge - Notification" feature.
-        - "Triple your Phone Credit - Notification" feature.
-        - "Upgrade at Data Depletion - Notification" feature.
-        - "Call without Phone Credit - Notification" feature.
-        - "Functional Notifications Engine" feature.
+        - Developed, tested, and delivered features for the "Automatic Mobile Notifications" engine, which triggered interactive data package sales, generating approximately $15 million in monthly revenue.
+        - Implemented high-impact notification features including "Recharge", "Triple Credit", and "Upgrade at Data Depletion".
 
         ++ Technologies:
-        - Java
-        - Spring
-        - Maven
-        - SOAP
-        - REST
-        - Java Message Service (JMS)
-        - Message-Driven Bean (MDB)
-        - Event-Driven Architecture (EDA)
-        - Oracle WebLogic Server SOA
-        - Oracle WebLogic Server Middleware
-        - Oracle WebLogic EAI
-        - Oracle Service Bus (OSB)
-        - Oracle Database
-        - SQL, PL/SQL
-        - Linux scripting
-        - Apache James Server
-        - Huawei - USSD Push Gateway (Unstructured Supplementary Service Data)
-        - Huawei - IPCC IVR (Internet Protocol Contact Center, Interactive Voice Response)
-        - Mobiera - SAT Push Gateway (Service Access Terminal)
-        - Mahindra - NGAGE Notifications Manager
-        - Nokia - IN Unified OCS (Intelligent Network, Online Charging System)
-        - Optiva - IN (Intelligent Network)
-
-        ++ Process: Scrum & Waterfall
-
-        ++ Tools:
-        - IBM Rational Team Concert
-        - Git, BitBucket
-        - Apache Subversion (SVN)
+        - Java (Spring, JMS, MDB, EDA)
+        - Oracle WebLogic (SOA, OSB)
+        - Oracle DB
+        - Linux Scripting
+        - Huawei USSD Push Gateway
+        
+        ++ Tools & Process:
+        - Git, SVN
         - SonarQube
-        - Trello
         - SoapUI
         - Postman
-        - Spring Tool Suite
-        - Putty, Kitty
-        - KornShell
-        - WinSCP
+        - Scrum & Waterfall
+
     - role: Software Developer
       time: Apr 2018 - Oct 2018
       company: MDP Consulting
       details: |
-        ++ Client: Belmond // Sector: Luxury Hospitality and Travel
+        ++ Client: Belmond | Sector: Luxury Hospitality & Travel
 
-        ++ About: I had participation in the projects: "Schools Web" which involved modifying rules and fares for children's field trips on Belmond's Cusco local trains, and the "Information Screens" project, focused on developing informational displays for the trains.
+        ++ About: 
+        - Contributed to the "Schools Web" project, modifying business rules and dynamic fares for local train field trips in Cusco.
+        - Developed the "Information Screens" project to provide real-time informational displays for train passengers.
 
         ++ Technologies:
-        - .NET
-        - C#
-        - ASP.NET MVC
-        - Razor
-        - WCF
-        - LINQ
-        - Entity Framework
-        - IIS
-        - JavaScript
-        - jQuery
-        - Bootstrap
-        - HTML5
-        - CSS3
-        - AJAX
-        - JSON
-        - XML
+        - C# (.NET, ASP.NET MVC, WCF, Entity Framework)
         - Microsoft SQL Server
-        - SQL, T-SQL
-        - WPF
+        - JavaScript (jQuery, AJAX)
+        - HTML5, CSS3
         - Azure
-
-        ++ Process: Scrum
-
-        ++ Tools:
+        
+        ++ Tools & Process:
         - Git, BitBucket
         - SonarQube
-        - OWASP
         - SoapUI
-        - Postman
+        - Scrum
+
     - role: Software Developer
       time: Aug 2016 - Jun 2017
       company: Sanitas Perú EPS
       details: |
-        ++ Client: Internal IT staff member // Sector: Health Insurance Provider
+        ++ Client: Internal IT staff member | Sector: Health Insurance Provider
 
         ++ About:
-        - Developed, tested, delivered, and documented various features and fixes for the primary affiliations and sales application.
-        - Created a Windows service to enable real-time reporting of affiliations, disaffiliation and interactions records to the National Superintendence of Health (SUSALUD) by efficiently placing messages in their designated queue.
-        - Conducted training sessions for the developer team, focusing on source control systems (git) and the installation and utilization of GitLab.
+        - Developed and maintained features for the primary affiliations and sales application.
+        - Created a Windows service for real-time reporting of affiliations and interactions to the National Superintendence of Health (SUSALUD) using WebSphere MQ.
+        - Conducted training sessions on Git and GitLab for the developer team to improve version control practices.
 
         ++ Technologies:
-        - .NET
-        - C#
-        - ASP.NET MVC
-        - Razor
-        - WCF
-        - LINQ
-        - NHibernate
-        - Fluent NHibernate
-        - IIS
-        - JavaScript
-        - jQuery
-        - Node.js, Grunt, grunt-sri
-        - Bootstrap
-        - HTML5
-        - CSS3
-        - AJAX
-        - JSON
-        - XML
-        - Oracle Database
-        - SQL, PL/SQL
-        - Windows Services
+        - C# (.NET, ASP.NET MVC, WCF, NHibernate)
+        - Oracle DB
+        - JavaScript (jQuery, Node.js)
+        - HTML5, CSS3
         - WebSphere MQ
-
-        ++ Process: Agile
-
-        ++ Tools:
+        
+        ++ Tools & Process:
         - Git, GitLab
         - SoapUI
-        - Postman
+        - Agile
+
     - role: Software Developer
       time: Aug 2014 - Aug 2016
       company: Cosapi Data
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil) | Sector: Telco
 
         ++ About:
-        - I developed, documented, and successfully implemented multiple features for various apps (approx. 12 apps) within the company, with a particular focus on prepaid, postpaid and sells web apps (.NET).
-        - Additionally, I served as a level 3 escalation point for level 2 helpdesk tickets for nearly a year, addressing and resolving approximately 150 tickets across multiple applications (approx. 20 apps).
+        - Developed, documented, and implemented multiple features across 12+ internal applications, focusing on prepaid, postpaid, and sales web platforms.
+        - Served as a level 3 escalation point, successfully resolving over 150 complex helpdesk tickets across 20+ applications.
 
         ++ Technologies:
-        - .NET
-        - C#
+        - C# (.NET, ASP.NET, WCF)
         - Visual Basic
-        - ASP.NET
-        - WCF
-        - IIS
-        - LINQ
-        - JavaScript
-        - jQuery
-        - Bootstrap
-        - HTML
-        - CSS
-        - AJAX
-        - JSON
-        - XML
-        - Oracle Database
-        - SQL, PL/SQL
+        - Oracle DB
+        - JavaScript (jQuery, AJAX)
         - AutoIt
+        
+        ++ Tools & Process:
+        - SoapUI
+        - Microsoft TFS
+        - Waterfall
 
-        ++ Process: Waterfall
-
-        ++ Tools:
-        - SoapUI 
-        - CA Harvest
-        - Microsoft Team Foundation Server
     - role: Software Developer
       time: Oct 2013 - Jun 2014
       company: Matzziel Salcedo Consultores
       details: |
-        ++ Client: Retirement Military Cooperative Aid (ACMR Perú) // Sector: Financial Services
-        ++ About: Developed an application for managing collections, bonuses, and loans.
-
-        ++ Client: Internal IT staff member
-        ++ About: Developed an in-house "Warehouse Management app".
-        - Implemented new modules to enhance the functionality of the app.
-        - Successfully migrated from SQL Server 2005 to SQL Server 2008.
-        - Upgraded DevExpress version from 3 to DevExpress 10.
-        - Integrated the app with Siscont, a third-party application.
+        ++ Clients: Retirement Military Cooperative Aid (ACMR Perú) & Internal
+        
+        ++ About: 
+        - Developed a comprehensive application for managing collections, bonuses, and loans for ACMR Perú.
+        - Built and enhanced an in-house "Warehouse Management" application, implementing new modules and integrating it with Siscont (third-party software).
+        - Executed a successful database migration to SQL Server 2008 and upgraded the DevExpress UI framework.
 
         ++ Technologies:
-        - .NET
-        - C#
+        - C# (.NET)
         - Visual Basic
         - Microsoft SQL Server
-        - SQL, T-SQL
         - DevExpress
 
-        ++ Tools:
-        - Siscont
     - role: System Assistant
       time: Mar 2013 - Aug 2013
       company: METROIL
       details: |
-        ++ Client: Internal IT staff member // Sector: Metrology Services
+        ++ Client: Internal IT staff member | Sector: Metrology Services
 
         ++ About:
-        - I worked as an internal IT staff member of the company wich was specialized in calibration and certification of measuring devices.
-        - My responsibilities included maintaining the "Calibrations app" and providing support to Debian users. I ensured that the Debian clients were able to connect to their remote desktops on Windows Server using rdesktop, and I provided technical assistance to resolve any connectivity issues.
+        - Maintained the internal "Calibrations app" for a company specializing in measuring device certification.
+        - Provided technical support to Debian users, ensuring seamless remote desktop connectivity to Windows Servers via rdesktop.
 
         ++ Technologies:
-        - .NET
         - Visual Basic 6.0
-        - Visual Basic
         - Microsoft SQL Server
-        - SQL, T-SQL
-        - Microsoft Windows Server
+        - Windows Server
         - Debian GNU/Linux
 
 certifications:
