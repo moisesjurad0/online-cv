@@ -163,7 +163,8 @@ experiences:
       time: Nov 2020 - Aug 2022
       company: Indra
       details: |
-        ++ Client: Telefónica del Perú // Sector: Telco
+        ++ Client: Telefónica del Perú
+        ++ Sector: Telco
 
         ++ About:
         - Designed and developed RPA bots and automations for complex telecom claim processes (Osiptel, Indecopi) within the Claims Team.
@@ -188,7 +189,8 @@ experiences:
       time: Oct 2019 - Nov 2020
       company: Global HITSS
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil)
+        ++ Sector: Telco
 
         ++ About:
         - Promoted to Technical Leader to guide the team in delivering critical notification features for prepaid clients (e.g., Navigation Attempts, Degradation of LTE).
@@ -216,7 +218,8 @@ experiences:
       time: Oct 2018 - Oct 2019
       company: MDP Consulting
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil)
+        ++ Sector: Telco
 
         ++ About:
         - Developed, tested, and delivered features for the "Automatic Mobile Notifications" engine, which triggered interactive data package sales, generating approximately $15 million in monthly revenue.
@@ -240,7 +243,8 @@ experiences:
       time: Apr 2018 - Oct 2018
       company: MDP Consulting
       details: |
-        ++ Client: Belmond // Sector: Luxury Hospitality & Travel
+        ++ Client: Belmond
+        ++ Sector: Luxury Hospitality & Travel
 
         ++ About: 
         - Contributed to the "Schools Web" project, modifying business rules and dynamic fares for local train field trips in Cusco.
@@ -263,7 +267,7 @@ experiences:
       time: Aug 2016 - Jun 2017
       company: Sanitas Perú EPS
       details: |
-        ++ Client: Internal IT staff member // Sector: Health Insurance Provider
+        ++ Sector: Health
 
         ++ About:
         - Developed and maintained features for the primary affiliations and sales application.
@@ -286,7 +290,8 @@ experiences:
       time: Aug 2014 - Aug 2016
       company: Cosapi Data
       details: |
-        ++ Client: Claro (América Móvil) // Sector: Telco
+        ++ Client: Claro (América Móvil)
+        ++ Sector: Telco
 
         ++ About:
         - Developed, documented, and implemented multiple features across 12+ internal applications, focusing on prepaid, postpaid, and sales web platforms.
@@ -308,7 +313,7 @@ experiences:
       time: Oct 2013 - Jun 2014
       company: Matzziel Salcedo Consultores
       details: |
-        ++ Clients: Retirement Military Cooperative Aid (ACMR Perú) & Internal
+        ++ Client: Retirement Military Cooperative Aid (ACMR Perú) & In-house projects
         
         ++ About: 
         - Developed a comprehensive application for managing collections, bonuses, and loans for ACMR Perú.
@@ -325,7 +330,7 @@ experiences:
       time: Mar 2013 - Aug 2013
       company: METROIL
       details: |
-        ++ Client: Internal IT staff member // Sector: Metrology Services
+        ++ Sector: Metrology Services
 
         ++ About:
         - Maintained the internal "Calibrations app" for a company specializing in measuring device certification.
