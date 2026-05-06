@@ -62,7 +62,7 @@ career-profile:
     thanks for visiting my profile 🙇‍♂️
 
     ++ Core skills:
-    - Python (FastAPI, SQLModel, SQLAlchemy, WeasyPrint, Requests, Playwright, Selenium + ChromeDriver, Beautiful Soup, Pandas, Pytest)
+    - Python (FastAPI, SQLModel, SQLAlchemy, WeasyPrint, Requests, Playwright, Selenium, ChromeDriver, Beautiful Soup, Pandas, Pytest)
     - Databases (Azure SQL, Microsoft SQL Server, Oracle PL/SQL, SQLite)
     - DevOps & CI/CD (Azure DevOps, Docker, Kubernetes, GitHub Actions, BitBucket Pipelines)
     - Cloud (Microsoft Azure, Azure App Service, Azure Functions, Azure Logic Apps, AWS, Terraform)
