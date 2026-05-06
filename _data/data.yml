@@ -8,7 +8,7 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Moisés Jurado
+  name: Moises Jurado
   tagline: Python Engineer | Backend Developer | DevOps
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -58,7 +58,7 @@ career-profile:
   title: Career Profile
   summary: |
     ++ Hi 👋
-    I'm Moisés, a Python Engineer with a strong background in Backend Development and DevOps.
+    I'm Moises, a Python Engineer with a strong background in Backend Development and DevOps.
     thanks for visiting my profile 🙇‍♂️
 
     ++ Core skills:
@@ -132,7 +132,7 @@ experiences:
         ++ Client: UNACEM Global Business Services
         
         ++ About:
-        - Developed robust REST APIs with FastAPI and designed database schemas using SQLAlchemy and SQLModel for the "Inventories" backend, a critical project supporting the flagship "Progresolplus" platform.
+        - Started at Digicem (later absorbed by Grupo UNACEM) developing robust REST APIs with FastAPI and designing database schemas using SQLAlchemy and SQLModel for the "Inventories" backend, a critical project supporting the flagship "Progresolplus" platform.
         - Deployed and scaled Python backend applications using Azure App Service and Azure Functions.
         - Engineered data extraction and web scraping tools (Requests, Beautiful Soup), and implemented automated PDF generation using WeasyPrint.
         - Maintained backend processes, managed Azure Logic Apps, and oversaw CI/CD pipelines as an Azure DevOps Administrator for various project repositories to ensure reliable deployments.
