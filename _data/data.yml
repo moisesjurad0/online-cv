@@ -13,7 +13,7 @@ sidebar:
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email:
+  email: moises003@gmail.com
   phone: #012 345 6789
   timezone: America/Perú Timezone
   citizenship:
@@ -27,7 +27,7 @@ sidebar:
   twitter:
   stack-overflow: 3499921/moisesj #Number/Username, e.g. 123456/alandoe
   codewars: moisesjurad0
-  goodreads: 170495610-moises
+  goodreads: #170495610-moises
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
