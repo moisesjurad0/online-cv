@@ -129,13 +129,11 @@ experiences:
       time: Jan 2024 - Present
       company: Grupo UNACEM
       details: |
-        ++ Client: UNACEM Global Business Services
-        
         ++ About:
         - Started at Digicem (later absorbed by Grupo UNACEM) developing robust REST APIs with FastAPI and designing database schemas using SQLAlchemy and SQLModel for the "Inventories" backend, a critical project supporting the flagship "Progresolplus" platform.
-        - Deployed and scaled Python backend applications using Azure App Service and Azure Functions.
-        - Engineered data extraction and web scraping tools (Requests, Beautiful Soup), and implemented automated PDF generation using WeasyPrint.
-        - Maintained backend processes, managed Azure Logic Apps, and oversaw CI/CD pipelines as an Azure DevOps Administrator for various project repositories to ensure reliable deployments.
+        - Deployed and scaled Python backend applications using Azure App Service, engineered data extraction tools (Requests, Beautiful Soup), and implemented automated PDF generation using WeasyPrint.
+        - Maintained backend processes and oversaw CI/CD pipelines as an Azure DevOps Administrator for various project repositories to ensure reliable deployments.
+        - Developed an event-driven automation pipeline for cement bag orders, utilizing Azure Logic Apps to capture incoming email events and processing them via FastAPI on Azure Functions, achieving centralized order management in Azure SQL.
         
         ++ Technologies:
         - Python (FastAPI, SQLAlchemy, SQLModel, Requests, Beautiful Soup, WeasyPrint)
