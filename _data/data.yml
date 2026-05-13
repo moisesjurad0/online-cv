@@ -476,8 +476,6 @@ experiences:
         - Visual Basic
         - Microsoft SQL Server
         - DevExpress
-
-        ++ Tools:
         - Siscont
 
     - role: System Assistant
@@ -554,7 +552,7 @@ certifications:
       credentialurl: https://www.credly.com/badges/bb220481-e07d-407f-8585-219bb54c4135
       credentialname:
       details:
-    - name: Professional Scrum Developerâ„¢ I (PSD I)
+    - name: Professional Scrum Developer™ I (PSD I)
       start: Feb. 2023
       end:
       organization: Scrum.org
@@ -562,7 +560,7 @@ certifications:
       credentialurl: https://www.credly.com/badges/f7f1e6b9-8647-40b6-ba52-098d20e9b77e
       credentialname:
       details:
-    - name: Scrum Foundation Professional Certificate - SFPCâ„¢
+    - name: Scrum Foundation Professional Certificate - SFPC™
       start: Aug. 2020
       end:
       organization: CertiProf
@@ -637,7 +635,7 @@ certifications:
 #       - title: A syntax directed compiler for Algol 60
 #         link: "#"
 #         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51â€“55"
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 # skills:
 #   title: Skills &amp; Proficiency
