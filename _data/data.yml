@@ -161,7 +161,7 @@ experiences:
       details: |
         ++ About:
         - Developed REST APIs with FastAPI and PostgreSQL
-        - Built cloud-based solutions on Azure
+        - Built cloud-based solutions on AWS
         - Worked on CI/CD automation and containerization with Docker and GitHub Actions
         
         ++ Technologies:
@@ -180,7 +180,6 @@ experiences:
         - Docker
         - Docker Compose
         - GitHub Actions
-        - Microsoft Azure
         - AWS
         - AWS SAM
         - AWS Lambda
@@ -189,6 +188,8 @@ experiences:
         - Helm
         - kubectl
         - Terraform
+        - Terraform Cloud
+        - ArgoCD
 
     - role: Lean RPA Analyst
       time: Nov 2020 - Aug 2022
@@ -198,8 +199,9 @@ experiences:
         ++ Sector: Telco
 
         ++ About:
-        - Worked for the "Claims Team" where I designed and developed robots and automations for various claim processes, including "claim registration", "previous consultation", and "claim resolution". These processes covered claims/complaints originating from Osiptel (landline and mobile, 1st and 2nd instance) as well as the "Book of Claims" from Indecopi.
-        - Led the technical aspects of the team, overseeing production deployments, monitoring, and troubleshooting issues. Managed repositories, mentored the team, conducted DevOps training, handled stakeholder management, and proposed process improvements.
+        - Designed and developed RPA bots and automations for complex telecom claim processes (Osiptel, Indecopi) within the Claims Team.
+        - Acted as the technical lead, overseeing production deployments, monitoring, and troubleshooting.
+        - Mentored team members, conducted DevOps training, managed code repositories, and actively proposed process improvements to stakeholders.
 
         ++ Technologies:
         - Python
@@ -345,7 +347,9 @@ experiences:
         ++ Client: Belmond
         ++ Sector: Luxury Hospitality and Travel
 
-        ++ About: Contributed to the "Schools Web" project, modifying business rules and dynamic fares for children's field trips on Belmond's Cusco local trains, and developed the "Information Screens" project, focused on informational displays for the trains.
+        ++ About:
+        - Contributed to the "Schools Web" project, modifying business rules and dynamic fares for local train field trips in Cusco.
+        - Developed the "Information Screens" project to provide real-time informational displays for train passengers.
 
         ++ Technologies:
         - .NET
@@ -381,12 +385,12 @@ experiences:
       time: Aug 2016 - Jun 2017
       company: Sanitas Perú EPS
       details: |
-        ++ Sector: Health Insurance Provider
+        ++ Sector: Health
 
         ++ About:
-        - Developed, tested, delivered, and documented various features and fixes for the primary affiliations and sales application.
-        - Created a Windows service to enable real-time reporting of affiliations, disaffiliation and interactions records to the National Superintendence of Health (SUSALUD) by efficiently placing messages in their designated queue.
-        - Conducted training sessions for the developer team, focusing on source control systems (Git) and the installation and utilization of GitLab.
+        - Developed and maintained features for the primary affiliations and sales application.
+        - Created a Windows service for real-time reporting of affiliations and interactions to the National Superintendence of Health (SUSALUD) using WebSphere MQ.
+        - Conducted training sessions on Git and GitLab for the developer team to improve version control practices.
 
         ++ Technologies:
         - .NET
@@ -426,8 +430,8 @@ experiences:
         ++ Sector: Telco
 
         ++ About:
-        - Developed, documented, and successfully implemented multiple features for various apps (approx. 12 apps) within the company, with a particular focus on prepaid, postpaid and sales web apps (.NET).
-        - Served as a level 3 escalation point for level 2 helpdesk tickets for nearly a year, addressing and resolving approximately 150 tickets across multiple applications (approx. 20 apps).
+        - Developed, documented, and implemented multiple features across 12+ internal applications, focusing on prepaid, postpaid, and sales web platforms.
+        - Served as a level 3 escalation point, successfully resolving over 150 complex helpdesk tickets across 20+ applications.
 
         ++ Technologies:
         - .NET
@@ -459,15 +463,12 @@ experiences:
       time: Oct 2013 - Jun 2014
       company: Matzziel Salcedo Consultores
       details: |
-        ++ Client: Retirement Military Cooperative Aid (ACMR Perú)
-        ++ Sector: Financial Services
-        ++ About: Developed an application for managing collections, bonuses, and loans.
-
-        ++ About: Developed an in-house "Warehouse Management app".
-        - Implemented new modules to enhance the functionality of the app.
-        - Successfully migrated from SQL Server 2005 to SQL Server 2008.
-        - Upgraded DevExpress version from 3 to DevExpress 10.
-        - Integrated the app with Siscont, a third-party application.
+        ++ Client: Retirement Military Cooperative Aid (ACMR Perú) & In-house projects
+        
+        ++ About: 
+        - Developed a comprehensive application for managing collections, bonuses, and loans for ACMR Perú.
+        - Built and enhanced an in-house "Warehouse Management" application, implementing new modules and integrating it with Siscont (third-party software).
+        - Executed a successful database migration to SQL Server 2008 and upgraded the DevExpress UI framework.
 
         ++ Technologies:
         - .NET
@@ -486,15 +487,14 @@ experiences:
         ++ Sector: Metrology Services
 
         ++ About:
-        - Worked as an internal IT staff member of a company specialized in calibration and certification of measuring devices.
-        - Maintained the "Calibrations app" and provided support to Debian users, ensuring that Debian clients were able to connect to their remote desktops on Windows Server using rdesktop, and provided technical assistance to resolve connectivity issues.
+        - Maintained the internal "Calibrations app" for a company specializing in measuring device certification.
+        - Provided technical support to Debian users, ensuring seamless remote desktop connectivity to Windows Servers via rdesktop.
 
         ++ Technologies:
         - .NET
         - Visual Basic 6.0
         - Visual Basic
         - Microsoft SQL Server
-
         - Microsoft Windows Server
         - Debian GNU/Linux
 
