@@ -152,6 +152,9 @@ experiences:
         - Docker
         - Docker Compose
         - Terraform
+        - Markdown
+        - Mermaid
+        - Marp
         
         ++ Process: Agile, Scrum
 
@@ -190,6 +193,7 @@ experiences:
         - Terraform
         - Terraform Cloud
         - ArgoCD
+        - Markdown
 
     - role: Lean RPA Analyst
       time: Nov 2020 - Aug 2022
