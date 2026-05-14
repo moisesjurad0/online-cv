@@ -1,0 +1,20 @@
+/* Elías Jurado — brand skin
+ *
+ * Paleta oficial:
+ *   Primary  morado profundo  #2b0548
+ *   Accent   verde            #224805
+ *   Soft     casi-blanco con tinte morado #f7f5fb
+ *
+ * Para volver al skin original cambiar `theme_skin: eliasjurado` por
+ * uno de los stock: blue | turquoise | green | berry | orange | ceramic.
+ */
+
+$theme-color:           #2b0548;   // morado profundo — color principal de la marca
+$text-color:            #1a1a1a;   // texto principal — casi negro, alta legibilidad
+$text-color-secondary:  #3a2a4f;   // texto secundario — gris con tinte morado, complementa
+$text-grey:             #6b6b6b;   // meta-info, fechas, ubicaciones
+$divider:               #e2e2e2;   // líneas finas
+$lighter-grey:          #cccccc;   // hover suave, deshabilitados
+$darker-grey:           #555555;   // íconos, segundo nivel
+$smoky-white:           #f7f5fb;   // fondos suaves con tinte morado
+$heart:                 #224805;   // verde — usado para detalles cálidos (corazones, badges)

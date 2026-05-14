@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <h1 class="hero__title">{{ page.hero_title | default: site.tagline }}</h1>
+      <p class="hero__tagline">{{ page.hero_subtitle | default: site.description }}</p>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+        <a href="/contacto/" class="btn btn--primary btn--lg">Conversemos tu proyecto</a>
+        <a href="/servicios/" class="btn btn--ghost btn--lg">Ver servicios</a>
+      </div>
+    </div>
+    <img src="/assets/images/eliasjurado-logo.png" alt="Logo de {{ site.title }}" class="hero__avatar">
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="text-align: center; max-width: 36em; margin: 0 auto 3rem;">
+      <p class="page-header__kicker">Servicios</p>
+      <h2>Lo que hago por ti</h2>
+      <p class="text-muted">Tres líneas de trabajo, todas pensadas para que tu negocio venda más sin que tengas que aprender código.</p>
+    </div>
+    <div class="grid grid--3">
+      {%- for s in site.data.servicios -%}
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">{{ s.icon }}</div>
+          <h3 class="card__title">{{ s.titulo }}</h3>
+          <p class="card__body">{{ s.resumen }}</p>
+        </article>
+      {%- endfor -%}
+    </div>
+    <div style="text-align: center; margin-top: 2.5rem;">
+      <a href="/servicios/" class="btn btn--ghost">Ver detalle de cada servicio →</a>
+    </div>
+  </div>
+</section>
+
+{%- assign destacados = site.proyectos | where: "destacado", true -%}
+{%- if destacados.size > 0 -%}
+<section class="section section--soft">
+  <div class="container">
+    <div style="text-align: center; max-width: 36em; margin: 0 auto 3rem;">
+      <p class="page-header__kicker">Portafolio</p>
+      <h2>Casos recientes</h2>
+    </div>
+    <div class="grid grid--2">
+      {%- for p in destacados limit: 2 -%}
+        <a href="{{ p.url }}" class="card" style="text-decoration: none; color: inherit;">
+          <h3 class="card__title">{{ p.title }}</h3>
+          <p class="card__body">{{ p.resumen }}</p>
+          <p style="margin-top: 1rem; color: {{ site.brand.primary }}; font-size: 0.9rem;">Ver caso →</p>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+<section class="section">
+  <div class="container container-narrow text-center">
+    <h2>¿Tu negocio necesita escalar?</h2>
+    <p class="text-muted" style="font-size: 1.1rem; margin-bottom: 2rem;">
+      Conversemos sin compromiso. Te respondo en menos de 24 horas en días hábiles.
+    </p>
+    <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.hero | url_encode }}" target="_blank" rel="noopener" class="btn btn--accent btn--lg">
+      Escribir por WhatsApp
+    </a>
+  </div>
+</section>

@@ -1,0 +1,48 @@
+{%- assign page_title = page.title | default: site.title -%}
+{%- if page.title and page.title != site.title -%}
+  {%- assign full_title = page_title | append: " — " | append: site.title -%}
+{%- else -%}
+  {%- assign full_title = page_title -%}
+{%- endif -%}
+{%- assign page_desc = page.description | default: site.description -%}
+
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ page_desc | strip_newlines }}">
+<meta name="author" content="{{ site.author.name }}">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="{{ site.chrome_mobile_color }}">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ full_title }}">
+<meta property="og:description" content="{{ page_desc | strip_newlines }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/images/eliasjurado-logo.png' | absolute_url }}">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ full_title }}">
+<meta name="twitter:description" content="{{ page_desc | strip_newlines }}">
+<meta name="twitter:image" content="{{ '/assets/images/eliasjurado-logo.png' | absolute_url }}">
+
+<!-- Favicon: SVG primero (navegadores modernos), .ico como fallback legacy -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/images/eliasjurado-logo.png">
+
+<!-- Tipografías de marca (mismas que las propuestas) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+{%- if site.analytics -%}
+<!-- TODO Fase C: agregar GA4 si site.analytics tiene una G-XXXX measurement ID -->
+{%- endif -%}

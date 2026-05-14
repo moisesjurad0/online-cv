@@ -1,0 +1,56 @@
+// ── Brand palette ───────────────────────────────────────────────────────────
+$brand-primary:       #2b0548;   // morado profundo — color principal
+$brand-primary-soft:  #f7f5fb;   // fondos suaves con tinte morado
+$brand-primary-line:  #e2dbed;   // bordes con tinte morado
+$brand-accent:        #224805;   // verde — acentos y CTAs secundarios
+$brand-accent-soft:   #fafdf5;
+
+// ── Neutral palette ─────────────────────────────────────────────────────────
+$ink:        #1a1a1a;
+$ink-soft:   #3a3a3a;
+$muted:      #6b6b6b;
+$line:       #e2e2e2;
+$bg:         #ffffff;
+$bg-soft:    #fafafa;
+
+// ── Semantic ────────────────────────────────────────────────────────────────
+$danger:  #c0392b;
+$success: $brand-accent;
+
+// ── Typography ──────────────────────────────────────────────────────────────
+$font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+$font-sans:  'Inter', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
+$font-mono:  ui-monospace, 'SF Mono', Menlo, monospace;
+
+// ── Layout ──────────────────────────────────────────────────────────────────
+$container-max:    1080px;
+$container-narrow: 720px;
+$radius:           10px;
+$radius-sm:        6px;
+$radius-pill:      999px;
+
+// ── Spacing scale (4px base) ────────────────────────────────────────────────
+$s-1:  0.25rem;
+$s-2:  0.5rem;
+$s-3:  0.75rem;
+$s-4:  1rem;
+$s-5:  1.5rem;
+$s-6:  2rem;
+$s-7:  3rem;
+$s-8:  4rem;
+$s-9:  6rem;
+
+// ── Breakpoints ─────────────────────────────────────────────────────────────
+$bp-sm: 480px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1280px;
+
+// ── Motion ──────────────────────────────────────────────────────────────────
+$ease: cubic-bezier(0.4, 0, 0.2, 1);
+$dur:  220ms;
+
+// ── Shadow ──────────────────────────────────────────────────────────────────
+$shadow-sm: 0 1px 2px rgba(43, 5, 72, 0.05);
+$shadow:    0 4px 12px rgba(43, 5, 72, 0.08);
+$shadow-lg: 0 10px 30px rgba(43, 5, 72, 0.12);

@@ -1,6 +1,54 @@
-<footer class="footer">
-    <div class="text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">{{ site.data.data.footer }}</small>
-    </div><!--//container-->
-</footer><!--//footer-->
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <h4>{{ site.title }}</h4>
+        <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem; max-width: 32em;">
+          {{ site.description }}
+        </p>
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <p style="font-size: 0.9rem; line-height: 1.9;">
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+          <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.footer | url_encode }}" target="_blank" rel="noopener">{{ site.contact.phone }}</a><br>
+          {{ site.contact.city }}<br>
+          RUC {{ site.contact.ruc }}
+        </p>
+      </div>
+
+      <div>
+        <h4>Enlaces</h4>
+        <p style="font-size: 0.9rem; line-height: 1.9;">
+          {%- for item in site.nav -%}
+            <a href="{{ item.url }}">{{ item.label }}</a><br>
+          {%- endfor -%}
+        </p>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>© {{ 'now' | date: '%Y' }} {{ site.author.name }}. Todos los derechos reservados.</span>
+      <span>
+        {%- if site.redes.github %}<a href="https://github.com/{{ site.redes.github }}" target="_blank" rel="noopener">GitHub</a>{% endif -%}
+        {%- if site.redes.linkedin %} · <a href="https://www.linkedin.com/in/{{ site.redes.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif -%}
+        {%- if site.redes.credly %} · <a href="https://{{ site.redes.credly }}" target="_blank" rel="noopener">Credly</a>{% endif -%}
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Toggle nav móvil
+  (function() {
+    var btn = document.querySelector('[data-nav-toggle]');
+    var menu = document.querySelector('[data-nav-mobile]');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function() {
+      var open = menu.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? '✕' : '☰';
+    });
+  })();
+</script>

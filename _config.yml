@@ -1,36 +1,102 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+# Sitio personal de Elías Jurado
+# https://eliasjurado.com
+# Build automático en GitHub Pages al pushear a main.
 
-# Site Settings
-title: Elias Jurado
-url: 'http://eliasjurado.com'
+# ── Identidad del sitio ──────────────────────────────────────────────────────
+title: Elías Jurado
+tagline: Web, e-commerce y automatización para negocios que quieren crecer
+description: >-
+  Diseño y desarrollo de sitios web, tiendas en línea y automatización
+  a medida para pymes en LATAM. Trabajo con Next.js, Supabase, Vercel
+  y herramientas que escalan.
+url: 'https://eliasjurado.com'
+author:
+  name: Elías Luis Jurado Santos
+  email: info@eliasjurado.com
+  twitter: # opcional
+locale: es_PE
+timezone: America/Lima
 
-#change it according to your repository name
-# disabling since we are using a custom domain
-#baseurl: '/online-cv' 
+# ── Branding ─────────────────────────────────────────────────────────────────
+brand:
+  primary: '#2b0548'
+  accent:  '#224805'
+  ink:     '#1a1a1a'
+chrome_mobile_color: '#2b0548'
 
-description: DotNet and Flutter dev, midtime chef and bassist
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+# ── Contacto ─────────────────────────────────────────────────────────────────
+contact:
+  email: info@eliasjurado.com
+  phone: '+51 920 050 617'
+  whatsapp: '51920050617'
+  city: Miraflores, Lima — Perú
+  ruc: '10434645421'
 
-# Tracker
-analytics: UA-83979019-1
+# ── Mensajes pre-llenados de WhatsApp Click-to-Chat ──────────────────────────
+# Cada CTA del sitio abre wa.me con el texto correspondiente ya escrito.
+# El cliente puede editarlo antes de enviar.
+whatsapp_messages:
+  default:  'Hola Elías, vi tu web y me gustaría conversar sobre un proyecto.'
+  hero:     'Hola Elías, vi tu web y me gustaría conversar sobre un proyecto.'
+  contacto: 'Hola Elías, te escribo desde tu página de contacto. Me interesa saber más sobre tus servicios.'
+  footer:   'Hola Elías, te escribo desde tu web. Me gustaría más información.'
 
-# Sass/SCSS
+# ── Redes ────────────────────────────────────────────────────────────────────
+redes:
+  github:   eliasjurado
+  linkedin: eliasjurado
+  credly:   credly.com/users/eliasjurado
+
+# ── Navegación principal ─────────────────────────────────────────────────────
+nav:
+  - { label: Inicio,     url: /              }
+  - { label: Servicios,  url: /servicios/    }
+  - { label: Portafolio, url: /portafolio/   }
+  - { label: Sobre mí,   url: /sobre-mi/     }
+  - { label: Contacto,   url: /contacto/     }
+
+# ── Collections (Jekyll trata cada carpeta como un mini-CMS) ─────────────────
+collections:
+  proyectos:
+    output: true
+    permalink: /portafolio/:slug/
+  servicios:
+    output: false  # los servicios viven en _data/servicios.yml por ahora
+
+defaults:
+  - scope: { path: "", type: pages }
+    values: { layout: page }
+  - scope: { path: "", type: proyectos }
+    values: { layout: proyecto }
+
+# ── Plugins (whitelisted en GitHub Pages) ────────────────────────────────────
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# ── Sass/SCSS ────────────────────────────────────────────────────────────────
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-# Build settings
-compress-site: yes
-
+# ── Build ────────────────────────────────────────────────────────────────────
 encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+markdown: kramdown
+permalink: /:slug/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - print.html
+  - vendor
 
-# Development Settings
+# ── Tracker (deshabilitado — Universal Analytics deprecado en jul-2023) ──────
+# Para habilitar GA4 en Fase C, agregar acá la GA4 measurement ID (G-XXXXX)
+# y descomentar el include en _includes/seo.html
+analytics:
+
+# ── Dev local ────────────────────────────────────────────────────────────────
 port: 4000
 host: 0.0.0.0
-safe: false

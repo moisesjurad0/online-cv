@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="/" class="site-header__brand" aria-label="{{ site.title }} — Inicio">
+      <img src="/assets/images/eliasjurado-logo.png" alt="" aria-hidden="true">
+      <span>{{ site.title }}</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Navegación principal">
+      {%- for item in site.nav -%}
+        {%- assign current = false -%}
+        {%- if page.url == item.url -%}{%- assign current = true -%}{%- endif -%}
+        <a href="{{ item.url }}"{% if current %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <button class="site-nav__toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+      ☰
+    </button>
+  </div>
+
+  <nav class="site-nav--mobile container" aria-label="Navegación móvil" data-nav-mobile>
+    {%- for item in site.nav -%}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+    {%- endfor -%}
+  </nav>
+</header>

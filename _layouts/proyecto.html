@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<header class="page-header">
+  <div class="container container-narrow">
+    <p class="page-header__kicker">Caso de estudio</p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.resumen -%}<p class="text-muted" style="font-size: 1.1rem;">{{ page.resumen }}</p>{%- endif -%}
+  </div>
+</header>
+
+<article class="section">
+  <div class="container container-narrow">
+    {%- if page.cliente or page.industria or page.stack or page.url_vivo -%}
+    <div class="callout">
+      {%- if page.cliente   -%}<strong>Cliente:</strong> {{ page.cliente }}<br>{%- endif -%}
+      {%- if page.industria -%}<strong>Industria:</strong> {{ page.industria }}<br>{%- endif -%}
+      {%- if page.stack     -%}<strong>Stack:</strong> {{ page.stack }}<br>{%- endif -%}
+      {%- if page.url_vivo  -%}<strong>Sitio:</strong> <a href="{{ page.url_vivo }}" target="_blank" rel="noopener">{{ page.url_vivo }}</a>{%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {{ content }}
+
+    <p style="margin-top: 3rem;"><a href="/portafolio/" class="btn btn--ghost">← Volver al portafolio</a></p>
+  </div>
+</article>

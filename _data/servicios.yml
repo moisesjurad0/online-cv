@@ -1,0 +1,35 @@
+# Servicios destacados — usados en home y página /servicios
+# Editar este archivo cambia el sitio en el siguiente build.
+
+- slug: web
+  icon: "🌐"
+  titulo: Diseño y desarrollo web
+  resumen: >-
+    Sitios rápidos, mobile-first y SEO-ready. Desde landings hasta sitios
+    institucionales con blog y panel de contenidos.
+  detalle: >-
+    Trabajo con Next.js, Jekyll o WordPress según lo que mejor le sirva
+    al cliente. Hosting incluido en el Plan Cuidado, deploy automático
+    y dominio profesional configurado.
+
+- slug: ecommerce
+  icon: "🛒"
+  titulo: E-commerce con IA
+  resumen: >-
+    Tiendas en línea con catálogo dinámico, checkout por WhatsApp o pasarela
+    de pagos, panel de administración y reportes.
+  detalle: >-
+    Stack Next.js + Supabase + Vercel. Integro chatbot de IA para responder
+    consultas de productos, gestiono pedidos y notificaciones automáticas.
+    Migración desde tiendas existentes incluida.
+
+- slug: automatizacion
+  icon: "⚙️"
+  titulo: Automatización para pymes
+  resumen: >-
+    Conecto los sistemas que ya usás (Excel, formularios, WhatsApp, contabilidad)
+    para que tu equipo deje de copiar y pegar.
+  detalle: >-
+    Análisis del flujo actual, propuesta de automatización con herramientas
+    no invasivas (n8n, Make, scripts a medida), capacitación al equipo
+    y soporte mensual.

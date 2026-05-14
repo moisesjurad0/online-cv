@@ -1,18 +1,9 @@
 ---
-
+# Frontmatter vacío necesario para que Jekyll procese SCSS.
 ---
 
 @charset "utf-8";
 
-
-// define variable with front matter
-{% if site.data.data.sidebar.position == 'left' %}
-$resume-order: 2;
-$sidebar-order: 1;
-{% else %}
-$resume-order: 1;
-$sidebar-order: 2;
-{% endif %}
-
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-@import "default"; // main partials
+@import "variables";
+@import "base";
+@import "components";

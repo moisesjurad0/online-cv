@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Elías Jurado">
+  <title>Elías Jurado</title>
+  <rect width="32" height="32" rx="6" ry="6" fill="#2b0548"/>
+  <text x="16" y="22.5"
+        text-anchor="middle"
+        font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+        font-size="16"
+        font-weight="700"
+        letter-spacing="-0.4"
+        fill="#ffffff">EJ</text>
+</svg>

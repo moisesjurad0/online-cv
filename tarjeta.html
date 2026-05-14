@@ -1,0 +1,282 @@
+---
+layout: null
+permalink: /tarjeta/
+sitemap: false
+---
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Elías Jurado · Tarjeta digital</title>
+<meta name="description" content="Web, e-commerce y automatización para negocios que quieren crecer.">
+<meta property="og:title" content="Elías Jurado">
+<meta property="og:description" content="Web, e-commerce y automatización para negocios que quieren crecer.">
+<meta name="theme-color" content="#2b0548">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #2b0548;
+    --accent:  #224805;
+    --ink:     #1a1a1a;
+    --muted:   #6b6b6b;
+    --line:    #e6e2ee;
+    --bg:      #faf8fd;
+    --card:    #ffffff;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: linear-gradient(160deg, var(--primary) 0%, #1a032d 100%);
+    min-height: 100vh; min-height: 100dvh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px 16px;
+  }
+  .card {
+    width: 100%; max-width: 380px;
+    background: var(--card);
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  }
+
+  /* HEADER */
+  .head {
+    background: linear-gradient(135deg, var(--primary) 0%, #4a1071 100%);
+    padding: 36px 28px 28px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .logo {
+    width: 88px; height: 104px; margin: 0 auto 14px;
+    border: 2.5px solid #fff;
+    display: grid; place-items: center;
+    position: relative;
+    background: rgba(255,255,255,0.05);
+  }
+  .logo .e {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px; font-weight: 700; line-height: 1;
+    color: #fff;
+    transform: translate(-5px, 4px);
+  }
+  .logo .j {
+    position: absolute; top: 14px; right: 14px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; font-weight: 500;
+    color: #fff;
+  }
+  .logo .j::after {
+    content: ""; position: absolute; right: -2px; top: 22px;
+    width: 14px; height: 2px; background: #fff;
+  }
+  .name {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px; font-weight: 600;
+    margin: 4px 0 4px;
+    letter-spacing: -0.2px;
+  }
+  .tagline {
+    font-size: 14px; opacity: 0.88;
+    line-height: 1.45;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  /* SERVICIOS */
+  .services {
+    padding: 18px 24px 8px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .services .label {
+    font-size: 10px; letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--accent); font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .services .list {
+    font-size: 13px; color: var(--ink); line-height: 1.6;
+  }
+  .services .list span {
+    display: inline-block;
+    margin: 0 4px;
+  }
+  .services .list .sep { color: var(--primary); opacity: 0.4; }
+
+  /* ACTIONS */
+  .actions { padding: 14px 18px 6px; }
+  .btn {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: var(--bg);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 15px; font-weight: 500;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+    cursor: pointer;
+  }
+  .btn:hover, .btn:active {
+    background: #fff;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+  }
+  .btn .ico {
+    flex-shrink: 0; width: 36px; height: 36px;
+    border-radius: 10px;
+    display: grid; place-items: center;
+    background: var(--primary); color: #fff;
+    font-size: 16px;
+  }
+  .btn.whatsapp .ico { background: #25D366; }
+  .btn.email .ico { background: #4a1071; }
+  .btn.web .ico { background: var(--accent); }
+  .btn.tel .ico { background: var(--primary); }
+  .btn .label-r { color: var(--muted); font-size: 12px; }
+  .btn .text { display: flex; flex-direction: column; }
+  .btn .value { font-weight: 500; }
+
+  /* SECONDARY */
+  .secondary {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; padding: 6px 18px 18px;
+  }
+  .btn-2 {
+    text-align: center; padding: 12px 10px;
+    background: var(--primary); color: #fff;
+    border-radius: 10px; font-size: 13px; font-weight: 500;
+    text-decoration: none; cursor: pointer; border: none;
+    font-family: inherit;
+  }
+  .btn-2.outline {
+    background: transparent; color: var(--primary);
+    border: 1.5px solid var(--primary);
+  }
+  .btn-2:hover, .btn-2:active { opacity: 0.9; }
+
+  /* FOOTER */
+  .foot {
+    padding: 14px 24px 18px; text-align: center;
+    border-top: 1px solid var(--line);
+    font-size: 11px; color: var(--muted);
+  }
+  .foot a { color: var(--primary); text-decoration: none; font-weight: 500; }
+</style>
+</head>
+<body>
+
+<main class="card">
+  <header class="head">
+    <div class="logo" aria-hidden="true">
+      <span class="e">E</span>
+      <span class="j">J</span>
+    </div>
+    <div class="name">Elías Jurado</div>
+    <p class="tagline">Web, e-commerce y automatización para negocios que quieren crecer.</p>
+  </header>
+
+  <section class="services">
+    <div class="label">Servicios</div>
+    <div class="list">
+      <span>Diseño y desarrollo web</span>
+      <span class="sep">·</span>
+      <span>E-commerce con IA</span>
+      <span class="sep">·</span>
+      <span>Automatización para pymes</span>
+    </div>
+  </section>
+
+  <nav class="actions" aria-label="Contacto">
+    <a class="btn whatsapp" href="https://wa.me/51920050617" target="_blank" rel="noopener">
+      <span class="ico" aria-hidden="true">💬</span>
+      <span class="text">
+        <span class="label-r">WhatsApp</span>
+        <span class="value">+51 920 050 617</span>
+      </span>
+    </a>
+    <a class="btn tel" href="tel:+51920050617">
+      <span class="ico" aria-hidden="true">📞</span>
+      <span class="text">
+        <span class="label-r">Llamar</span>
+        <span class="value">+51 920 050 617</span>
+      </span>
+    </a>
+    <a class="btn email" href="mailto:info@eliasjurado.com">
+      <span class="ico" aria-hidden="true">✉</span>
+      <span class="text">
+        <span class="label-r">Correo</span>
+        <span class="value">info@eliasjurado.com</span>
+      </span>
+    </a>
+    <a class="btn web" href="https://eliasjurado.com" target="_blank" rel="noopener">
+      <span class="ico" aria-hidden="true">🌐</span>
+      <span class="text">
+        <span class="label-r">Sitio web</span>
+        <span class="value">eliasjurado.com</span>
+      </span>
+    </a>
+  </nav>
+
+  <div class="secondary">
+    <button class="btn-2" onclick="downloadVCard()">Guardar contacto</button>
+    <button class="btn-2 outline" onclick="shareCard()">Compartir</button>
+  </div>
+
+  <footer class="foot">
+    Miraflores · Lima · Perú · RUC 10434645421<br>
+    <a href="https://eliasjurado.com">eliasjurado.com</a>
+  </footer>
+</main>
+
+<script>
+function downloadVCard() {
+  const vcard = [
+    "BEGIN:VCARD",
+    "VERSION:3.0",
+    "FN:Elías Jurado",
+    "N:Jurado;Elías;Luis;;",
+    "ORG:Elías Jurado",
+    "TITLE:Diseño y desarrollo web · E-commerce con IA · Automatización",
+    "TEL;TYPE=CELL,VOICE:+51920050617",
+    "EMAIL;TYPE=WORK:info@eliasjurado.com",
+    "URL:https://eliasjurado.com",
+    "ADR;TYPE=WORK:;;;Miraflores;Lima;;Perú",
+    "NOTE:Web\\, e-commerce y automatización para negocios que quieren crecer.",
+    "END:VCARD"
+  ].join("\r\n");
+  const blob = new Blob([vcard], { type: "text/vcard;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = "elias-jurado.vcf";
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 200);
+}
+async function shareCard() {
+  const data = {
+    title: "Elías Jurado",
+    text: "Web, e-commerce y automatización para negocios que quieren crecer.",
+    url: location.href
+  };
+  if (navigator.share) {
+    try { await navigator.share(data); } catch {}
+  } else {
+    try {
+      await navigator.clipboard.writeText(location.href);
+      alert("Enlace copiado al portapapeles.");
+    } catch {
+      prompt("Copia este enlace:", location.href);
+    }
+  }
+}
+</script>
+
+</body>
+</html>
