@@ -1,0 +1,406 @@
+Python Developer
+
+Grupo UNACEM · Full-time
+
+Jan 2024 - Present
+
+Hybrid
+
+## About:
+- Started at Digicem (later absorbed by Grupo UNACEM) developing robust REST APIs with FastAPI and designing database schemas using SQLAlchemy and SQLModel for the "Inventories" backend, a critical project supporting the flagship "Progresolplus" platform.
+- Deployed and scaled Python backend applications using Azure App Service, engineered data extraction tools (Requests, Beautiful Soup), and implemented automated PDF generation using WeasyPrint.
+- Maintained backend processes and oversaw CI/CD pipelines as an Azure DevOps Administrator for various project repositories to ensure reliable deployments.
+- Developed an event-driven automation pipeline for cement bag orders, utilizing Azure Logic Apps to capture incoming email events and processing them via FastAPI on Azure Functions, achieving centralized order management in Azure SQL.
+
+## Technologies:
+- Python
+- Python - FastAPI
+- Python - SQLAlchemy
+- Python - SQLModel
+- Python - Requests
+- Python - Beautiful Soup
+- Python - WeasyPrint
+- Microsoft Azure
+- Azure SQL
+- Azure App Service
+- Azure Functions
+- Azure Logic Apps
+- Azure DevOps
+- Azure Key Vault
+- Docker
+- Docker Compose
+- Terraform
+- Markdown
+- Mermaid
+- Marp
+
+## Process: Agile, Scrum
+
+
+Python Developer
+
+Independent Backend Engineer
+
+Dec 2022 - Dec 2023
+
+## About:
+- Developed REST APIs with FastAPI and PostgreSQL
+- Built cloud-based solutions on AWS
+- Worked on CI/CD automation and containerization with Docker and GitHub Actions
+
+## Technologies:
+- Python
+- Python - FastAPI
+- Python - Django
+- Python - Flask
+- Python - SQLAlchemy
+- Python - Robot Framework
+- Python - RPA Framework
+- Python - Scrapy
+- Python - Playwright
+- Python - Selenium + Chrome Driver
+- Python - Chromium
+- PostgreSQL
+- Docker
+- Docker Compose
+- GitHub Actions
+- AWS
+- AWS SAM
+- AWS Lambda
+- AWS DynamoDB
+- Kubernetes
+- Helm
+- kubectl
+- Terraform
+- Terraform Cloud
+- ArgoCD
+- Markdown
+
+
+Lean RPA Analyst
+
+Indra · Full-time
+
+Nov 2020 - Aug 2022
+
+## Client: Telefónica del Perú
+## Sector: Telco
+
+## About:
+- Designed and developed RPA bots and automations for complex telecom claim processes (Osiptel, Indecopi) within the Claims Team.
+- Acted as the technical lead, overseeing production deployments, monitoring, and troubleshooting.
+- Mentored team members, conducted DevOps training, managed code repositories, and actively proposed process improvements to stakeholders.
+
+## Technologies:
+- Python
+- Python - Requests
+- Python - Selenium + Chrome Driver
+- Python - Pandas
+- Python - Beautiful Soup
+- Python - pysftp
+- Python - SQLAlchemy
+- Microsoft SQL Server
+- DevOps
+- Docker, Kubernetes
+- Blue Prism + .NET modules (C# & Visual Basic)
+- AWK (Linux)
+
+## Process: Scrum, RPA
+
+## Tools:
+- Git / BitBucket / BitBucket Pipelines
+- SonarCloud
+- Postman
+- Jira / Trello
+- Splunk
+
+
+Technical Leader
+
+GLOBAL HITSS · Full-time
+
+Oct 2019 - Nov 2020
+
+## Client: Claro (América Móvil)
+## Sector: Telco
+
+## About:
+After my previous experience working for the same client I became technical leader and successfully guided the same team in achieving additional goals, e.g.
+- "Navigation Attempt for Prepaid Clients - Notification" feature.
+- "Turning Phone On for Prepaid Clients - Notification" feature.
+- "Degradation of Wireless Internet IFI and LTE - Notification" feature.
+- Notifications Processes E2E - Maintenance and documentation aligned to Claro Development Standards.
+- Management and monitoring of Production Passes.
+- Risk Management of initiatives.
+- Issues troubleshooting for Prepaid Platform & Apps.
+- Participation in the committees of production passes. Transfer to support and monitoring teams.
+- Linux Scripts migration from using IN (Optiva) to use CBIO (Ericson).
+- Programming of the EAI integration to reduce the load of transactions reaching the IN, using Huawei PCRF as an intermediary.
+
+## Technologies:
+- Java
+- Spring
+- Maven
+- SOAP
+- REST
+- Java Message Service (JMS)
+- Message-Driven Bean (MDB)
+- Event-Driven Architecture (EDA)
+- Oracle WebLogic Server SOA
+- Oracle WebLogic Server Middleware
+- Oracle WebLogic EAI
+- Oracle Service Bus (OSB)
+- Oracle Database (PL/SQL)
+- Linux scripting
+- Apache James Server
+- Huawei - USSD Push Gateway (Unstructured Supplementary Service Data)
+- Huawei - IPCC IVR (Internet Protocol Contact Center, Interactive Voice Response)
+- Mobiera - SAT Push Gateway (Service Access Terminal)
+- Mahindra - NGAGE Notifications Manager
+- Nokia - IN Unified OCS (Intelligent Network, Online Charging System)
+- Optiva - IN (Intelligent Network)
+- Huawei - PCRF (Policy and Charging Rules Function)
+- AWK
+
+## Process: Scrum & Waterfall
+
+## Tools:
+- IBM Rational Team Concert
+- Git, BitBucket
+- Apache Subversion (SVN)
+- SonarQube
+- Trello
+- SoapUI
+- Postman
+- Spring Tool Suite
+- Putty, Kitty
+- KornShell
+- Vim
+- WinSCP
+
+
+Software Developer
+
+MDP CONSULTING S.A.C · Full-time
+
+Oct 2018 - Oct 2019
+
+## Client: Claro (América Móvil)
+## Sector: Telco
+
+## About:
+Developed, tested, and delivered documented features and fixes for "Automatic Mobile Notifications". These notifications are aimed at promoting the sale of mobile data packages triggered by mobile events through interactive notifications on mobile phones, resulting in a monthly revenue of approximately $15 million, e.g.
+- "Recharge - Notification" feature.
+- "Triple your Phone Credit - Notification" feature.
+- "Upgrade at Data Depletion - Notification" feature.
+- "Call without Phone Credit - Notification" feature.
+- "Functional Notifications Engine" feature.
+
+## Technologies:
+- Java
+- Spring
+- Maven
+- SOAP
+- REST
+- Java Message Service (JMS)
+- Message-Driven Bean (MDB)
+- Event-Driven Architecture (EDA)
+- Oracle WebLogic Server SOA
+- Oracle WebLogic Server Middleware
+- Oracle WebLogic EAI
+- Oracle Service Bus (OSB)
+- Oracle Database (PL/SQL)
+- Linux scripting
+- Apache James Server
+- Huawei - USSD Push Gateway (Unstructured Supplementary Service Data)
+- Huawei - IPCC IVR (Internet Protocol Contact Center, Interactive Voice Response)
+- Mobiera - SAT Push Gateway (Service Access Terminal)
+- Mahindra - NGAGE Notifications Manager
+- Nokia - IN Unified OCS (Intelligent Network, Online Charging System)
+- Optiva - IN (Intelligent Network)
+
+## Process: Scrum & Waterfall
+
+## Tools:
+- IBM Rational Team Concert
+- Git, BitBucket
+- Apache Subversion (SVN)
+- SonarQube
+- Trello
+- SoapUI
+- Postman
+- Spring Tool Suite
+- Putty, Kitty
+- KornShell
+- WinSCP
+
+
+Software Developer
+
+MDP CONSULTING S.A.C · Full-time
+
+Apr 2018 - Oct 2018
+
+## Client: Belmond
+## Sector: Luxury Hospitality and Travel
+
+## About:
+- Contributed to the "Schools Web" project, modifying business rules and dynamic fares for local train field trips in Cusco.
+- Developed the "Information Screens" project to provide real-time informational displays for train passengers.
+
+## Technologies:
+- .NET
+- C#
+- ASP.NET MVC
+- Razor
+- WCF
+- LINQ
+- Entity Framework
+- IIS
+- JavaScript
+- jQuery
+- Bootstrap
+- HTML5
+- CSS3
+- AJAX
+- JSON
+- XML
+- Microsoft SQL Server
+- WPF
+- Azure
+
+## Process: Scrum
+
+## Tools:
+- Git, BitBucket
+- SonarQube
+- OWASP
+- SoapUI
+- Postman
+
+
+Software Developer
+
+Sanitas Perú EPS · Full-time
+
+Aug 2016 - Jun 2017
+
+## Sector: Health
+
+## About:
+- Developed and maintained features for the primary affiliations and sales application.
+- Created a Windows service for real-time reporting of affiliations and interactions to the National Superintendence of Health (SUSALUD) using WebSphere MQ.
+- Conducted training sessions on Git and GitLab for the developer team to improve version control practices.
+
+## Technologies:
+- .NET
+- C#
+- ASP.NET MVC
+- Razor
+- WCF
+- LINQ
+- NHibernate
+- Fluent NHibernate
+- IIS
+- JavaScript
+- jQuery
+- Node.js, Grunt, grunt-sri
+- Bootstrap
+- HTML5
+- CSS3
+- AJAX
+- JSON
+- XML
+- Oracle Database (PL/SQL)
+- Windows Services
+- WebSphere MQ
+
+## Process: Agile
+
+## Tools:
+- Git, GitLab
+- SoapUI
+- Postman
+
+
+Software Developer
+
+Cosapi Data · Full-time
+
+Aug 2014 - Aug 2016
+
+## Client: Claro (América Móvil)
+## Sector: Telco
+
+## About:
+- Developed, documented, and implemented multiple features across 12+ internal applications, focusing on prepaid, postpaid, and sales web platforms.
+- Served as a level 3 escalation point, successfully resolving over 150 complex helpdesk tickets across 20+ applications.
+
+## Technologies:
+- .NET
+- C#
+- Visual Basic
+- ASP.NET
+- WCF
+- IIS
+- LINQ
+- JavaScript
+- jQuery
+- Bootstrap
+- HTML
+- CSS
+- AJAX
+- JSON
+- XML
+- Oracle Database (PL/SQL)
+- AutoIt
+
+## Process: Waterfall
+
+## Tools:
+- SoapUI
+- CA Harvest
+- Microsoft Team Foundation Server
+
+
+Software Developer
+
+Matzziel Salcedo Consultores · Contract
+
+Oct 2013 - Jun 2014
+
+## Client: Retirement Military Cooperative Aid (ACMR Perú) & In-house projects
+
+## About:
+- Developed a comprehensive application for managing collections, bonuses, and loans for ACMR Perú.
+- Built and enhanced an in-house "Warehouse Management" application, implementing new modules and integrating it with Siscont (third-party software).
+- Executed a successful database migration to SQL Server 2008 and upgraded the DevExpress UI framework.
+
+## Technologies:
+- .NET
+- C#
+- Visual Basic
+- Microsoft SQL Server
+- DevExpress
+- Siscont
+
+
+System Assistant
+
+METROIL · Contract
+
+Mar 2013 - Aug 2013
+
+## Sector: Metrology Services
+
+## About:
+- Maintained the internal "Calibrations app" for a company specializing in measuring device certification.
+- Provided technical support to Debian users, ensuring seamless remote desktop connectivity to Windows Servers via rdesktop.
+
+## Technologies:
+- .NET
+- Visual Basic 6.0
+- Visual Basic
+- Microsoft SQL Server
+- Microsoft Windows Server
+- Debian GNU/Linux
