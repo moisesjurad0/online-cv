@@ -158,9 +158,9 @@ experiences:
         
         ++ Process: Agile, Scrum
 
-    - role: Independent Backend Engineer
+    - role: Python Developer
       time: Dec 2022 - Dec 2023
-      company: Independent Contractor
+      company: Independent Backend Engineer
       details: |
         ++ About:
         - Developed REST APIs with FastAPI and PostgreSQL
